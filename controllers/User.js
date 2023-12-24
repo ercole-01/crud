@@ -1,4 +1,4 @@
-const UserModel = require('../model/user') ini
+const UserModel = require('../model/user')
 // Create and Save a new user
 exports.create = async (req, res) => {
     if (!req.body.email && !req.body.firstName && !req.body.lastName && !req.body.phone) {
