@@ -23,6 +23,6 @@ mongoose.connect(dbConfig.url, {
 app.get('/', (req, res) => {
     res.json({"message": "Hello Crud Node Express"});
 });
-app.listen(3000, () => {
-    console.log("Server is listening on port 3000");
+app.listen(3003, () => {
+    console.log("Server is listening on port 3003");
 })
